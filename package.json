@@ -6,9 +6,22 @@
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "exports": { ".": { "import": "./dist/index.js", "types": "./dist/index.d.ts" } },
-  "files": ["dist", "data/criteria.json", "LICENSE", "DATA-LICENSE.md", "README.md"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./data/criteria.json": "./data/criteria.json"
+  },
+  "files": [
+    "dist",
+    "data/criteria.json",
+    "LICENSE",
+    "DATA-LICENSE.md",
+    "README.md"
+  ],
   "scripts": {
+    "prepare": "tsc -p tsconfig.json",
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "test": "vitest run",
@@ -16,7 +29,16 @@
     "eval:download": "tsx eval/download.ts",
     "eval": "tsx eval/run.ts"
   },
-  "engines": { "node": ">=20" },
-  "dependencies": { "fflate": "^0.8.2" },
-  "devDependencies": { "@types/node": "^22.0.0", "tsx": "^4.19.0", "typescript": "^5.6.0", "vitest": "^2.1.0" }
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
 }
